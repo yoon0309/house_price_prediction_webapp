@@ -53,7 +53,9 @@ Column명은 id, date, price, bedrooms, bathrooms, sqft_living, sqft_lot, floors
 ### 4. 문제상황 해결과정(분석기법, 모델 등)
 
 
-4가지 컬럼(bedrooms, bathrooms, floors, yr_built)을 통하여 선형회귀모델을 
+4가지 컬럼(bedrooms, bathrooms, floors, yr_built)을 통하여 선형회귀모델을 만들었습니다.
+
+
 
 
 
@@ -65,6 +67,6 @@ Column명은 id, date, price, bedrooms, bathrooms, sqft_living, sqft_lot, floors
 
 ### 6. 한계점 및 해결방안  
 
-- 집 값 예측 모델의 선형회귀 모델 구축 전, 컬럼 선정시에 집 구매 선택 기준을 컬럼별로 상관계수를 구하여 가격에 어떤 컬럼이 영향을 주는지 살필 수 있었다면 좋았을 것 같다는 생각이 들었습니다.
-- heroku 연결에 실패했다는 점이 아쉬움에 남습니다.
+- 집 값 예측 모델의 선형회귀 모델 구축 전, 컬럼 선정시에 집 구매 선택 기준을 컬럼별로 상관계수를 구하여 가격에 어떤 컬럼이 영향을 주는지 살필 수 있는 지표가 되었을 것 같아서 아쉬움이 남습니다. 
+- heroku 연결을 하여 타인이 접근할 수 있는 환경을 만들었으면 더 좋았을 것이라는 생각이 듭니다. 
 - mongoDB 외의 다른 Database 연결 시도를 해보고 싶다는 생각이 들었습니다.
