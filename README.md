@@ -54,10 +54,43 @@ Column명은 id, date, price, bedrooms, bathrooms, sqft_living, sqft_lot, floors
 
 
 4가지 컬럼(bedrooms, bathrooms, floors, yr_built)을 통하여 선형회귀모델을 만들었습니다.
+다중회귀분석은여러 개의 독립변수(x)를 가지고 종속변수(y)를 예측하기 위한 회귀 모형으로 
+
+다중 선형회귀분석의 일반식은 
+![img1 daumcdn](https://github.com/yoon0309/house_price_prediction_webapp/assets/102473586/b726f80e-163c-43c3-9857-c83f50a44d7d)
+으로 구성되어 있다. 
+
+일반식의 설명으로는 b1 b2.. 를 편 회귀 계수(Partial regression coefficient), 계수를 통해 설명변수 x1이 종속변수에 대한 영향력을 나타낸다. 
+
+또한, 단순회귀와 마찬가지로 계수는 최소제곱법를 통해 편미분하여 계수를 추정한다. 
+
+다중선형회귀분석 시 유의할 점은 독립변수(설명변수)들끼리의 상관관계가 높으면 다중공선성 문제가 나타날 수 있다. 
 
 
+Database로 사용된 MongoDB는 NoSQL의 한 종류로, Document라는 형식의 자료구조를 사용한다.
 
 
+NoSQL은 관계형 데이터베이스에서 하지 못했거나 어려운 것들을 해결하기 위해 등장했다.
+
+
+NoSQL의 장점은 
+1. 데이터 가시성이 뛰어나다. 
+2. Join 없이 조회가 가능하므로 응답 속도가 빠르다.
+3. 스키마가 유연해서 데이터 모델을 App의 요구사항에 맞게 데이터를 수용할 수 있다.
+4. Scale-Out이 간편하다.
+5. 역정규화에 따라 데이터 중복이 발생한다.
+6. 스키마 설계를 못하면 성능 저하가 발생한다.
+
+MongoDB의 특징은 
+1. Document 지향 Database이다.
+2. 데이터 중복이 발생할 수 있지만 접근성과 가시성, 읽기 성능이 좋다.
+    - 생성, 수정, 삭제 시 각 컬렉션에 반영해야 하는 단점이 있다.
+3. 스키마 설계가 어렵지만, 스키마가 유연해서 Application의 요구사항에 맞게 데이터를 수용할 수 있다.
+4. HA와 Scale-Out Solution을 자체적으로 지원해서 확장이 쉽다.
+    - Application에서는 Scale-out을 고려하지 않아도 된다.
+5. Secondary Index를 지원한다.
+6. 다양한 종류의 Index를 제공한다.
+7. 응답 속도가 빠르다.
 
 
 ### 5. 결과정리
@@ -70,3 +103,10 @@ Column명은 id, date, price, bedrooms, bathrooms, sqft_living, sqft_lot, floors
 - 집 값 예측 모델의 선형회귀 모델 구축 전, 컬럼 선정시에 집 구매 선택 기준을 컬럼별로 상관계수를 구하여 가격에 어떤 컬럼이 영향을 주는지 살필 수 있는 지표가 되었을 것 같아서 아쉬움이 남습니다. 
 - heroku 연결을 하여 타인이 접근할 수 있는 환경을 만들었으면 더 좋았을 것이라는 생각이 듭니다. 
 - mongoDB 외의 다른 Database 연결 시도를 해보고 싶다는 생각이 들었습니다.
+
+
+### 7. 출처 
+https://value-error.tistory.com/26
+
+
+https://jaehoney.tistory.com/314
