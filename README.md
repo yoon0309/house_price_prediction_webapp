@@ -67,33 +67,11 @@ Column명은 id, date, price, bedrooms, bathrooms, sqft_living, sqft_lot, floors
 다중선형회귀분석 시 유의할 점은 독립변수(설명변수)들끼리의 상관관계가 높으면 다중공선성 문제가 나타날 수 있다. 
 
 
-Database로 사용된 MongoDB는 NoSQL의 한 종류로, Document라는 형식의 자료구조를 사용한다.
-
-
-NoSQL은 관계형 데이터베이스에서 하지 못했거나 어려운 것들을 해결하기 위해 등장했다.
-
-
-NoSQL의 장점은 
-1. 데이터 가시성이 뛰어나다. 
-2. Join 없이 조회가 가능하므로 응답 속도가 빠르다.
-3. 스키마가 유연해서 데이터 모델을 App의 요구사항에 맞게 데이터를 수용할 수 있다.
-4. Scale-Out이 간편하다.
-5. 역정규화에 따라 데이터 중복이 발생한다.
-6. 스키마 설계를 못하면 성능 저하가 발생한다.
-
-MongoDB의 특징은 
-1. Document 지향 Database이다.
-2. 데이터 중복이 발생할 수 있지만 접근성과 가시성, 읽기 성능이 좋다.
-    - 생성, 수정, 삭제 시 각 컬렉션에 반영해야 하는 단점이 있다.
-3. 스키마 설계가 어렵지만, 스키마가 유연해서 Application의 요구사항에 맞게 데이터를 수용할 수 있다.
-4. HA와 Scale-Out Solution을 자체적으로 지원해서 확장이 쉽다.
-    - Application에서는 Scale-out을 고려하지 않아도 된다.
-5. Secondary Index를 지원한다.
-6. 다양한 종류의 Index를 제공한다.
-7. 응답 속도가 빠르다.
+Database로 사용된 MongoDB는 NoSQL의 한 종류를 사용하였다. 
 
 
 ### 5. 결과정리
+
 
  
 
