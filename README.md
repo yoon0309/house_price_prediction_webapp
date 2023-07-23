@@ -46,7 +46,7 @@ Column명은 id, date, price, bedrooms, bathrooms, sqft_living, sqft_lot, floors
 
 선형회귀모델을 이용한 집값 예측하는 모델을 만든 후 picking을 통하여 모델을 저장하고 flask를 통하여 웹사이트 연결을 하였습니다. 
 
-또한 MongoDB를 통하여 DB에 저장 후 mongodb chart, google data studio를 통한 대시 보드 제작하였습니다. 
+또한 MongoDB를 통하여 DB에 저장 후 MongoDB chart, Google Data Studio를 통한 대시 보드 제작하였습니다. 
 
 
 
@@ -72,6 +72,11 @@ Database로 사용된 MongoDB는 NoSQL의 한 종류를 사용하였다.
 
 ### 5. 결과정리
 
+- 웹 앱 시연 영상 
+![app py - AI_13_박민설_Section3 - Visual Studio Code 2023-07-23 23-34-30](https://github.com/yoon0309/house_price_prediction_webapp/assets/102473586/f8e1a278-9c38-440f-9611-1cd9d8163ed7)
+![Document - 개인 - Microsoft_ Edge 2023-07-23 23-38-15](https://github.com/yoon0309/house_price_prediction_webapp/assets/102473586/96abe32c-0dd6-4d60-bc68-c3594e1aa2a7)
+
+- 시각화(MongoDB chart, Google Data Studio
 
  
 
