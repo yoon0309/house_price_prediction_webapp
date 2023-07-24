@@ -46,7 +46,9 @@ Column명은 id, date, price, bedrooms, bathrooms, sqft_living, sqft_lot, floors
 
 선형회귀모델을 이용한 집값 예측하는 모델을 만든 후 picking을 통하여 모델을 저장하고 flask를 통하여 웹사이트 연결을 하였습니다. 
 
-또한 MongoDB를 통하여 DB에 저장 후 Google Data Studio를 통한 대시 보드 제작하였습니다. 
+또한 정보를 더 알아보고 싶은 사람이 있다면 지역의 부동산 사이트로 이동할 수 있도록 부동산 사이트 링크를 첨부하였습니다. 
+
+MongoDB를 통하여 DB에 저장 후 Google Data Studio를 통한 대시 보드 제작하였습니다. 
 
 
 
