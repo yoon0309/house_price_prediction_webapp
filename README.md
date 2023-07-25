@@ -78,7 +78,9 @@ Database로 사용된 MongoDB는 NoSQL의 한 종류를 사용하였다.
 ![app py - AI_13_박민설_Section3 - Visual Studio Code 2023-07-23 23-34-30](https://github.com/yoon0309/house_price_prediction_webapp/assets/102473586/f8e1a278-9c38-440f-9611-1cd9d8163ed7)
 ![Document - 개인 - Microsoft_ Edge 2023-07-23 23-38-15](https://github.com/yoon0309/house_price_prediction_webapp/assets/102473586/96abe32c-0dd6-4d60-bc68-c3594e1aa2a7)
 
+
 - 시각화(Google Data Studio)
+
 ![1](https://github.com/yoon0309/house_price_prediction_webapp/assets/102473586/43c58abd-2cff-4f6a-806f-3aaf87d49237)
 ![2](https://github.com/yoon0309/house_price_prediction_webapp/assets/102473586/1a729360-8ad4-48c4-b42d-f47ce3810643)
 ![3](https://github.com/yoon0309/house_price_prediction_webapp/assets/102473586/4a31eaa7-66b7-4199-a0c9-1c1e707807d2)
