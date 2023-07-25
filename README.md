@@ -79,8 +79,18 @@ Database로 사용된 MongoDB는 NoSQL의 한 종류를 사용하였다.
 ![Document - 개인 - Microsoft_ Edge 2023-07-23 23-38-15](https://github.com/yoon0309/house_price_prediction_webapp/assets/102473586/96abe32c-0dd6-4d60-bc68-c3594e1aa2a7)
 
 - 시각화(Google Data Studio)
+![1](https://github.com/yoon0309/house_price_prediction_webapp/assets/102473586/43c58abd-2cff-4f6a-806f-3aaf87d49237)
+![2](https://github.com/yoon0309/house_price_prediction_webapp/assets/102473586/1a729360-8ad4-48c4-b42d-f47ce3810643)
+![3](https://github.com/yoon0309/house_price_prediction_webapp/assets/102473586/4a31eaa7-66b7-4199-a0c9-1c1e707807d2)
+![4](https://github.com/yoon0309/house_price_prediction_webapp/assets/102473586/499cc4b8-b647-433e-96b9-7d54e556e1f4)
+![11](https://github.com/yoon0309/house_price_prediction_webapp/assets/102473586/188583db-7c79-4b91-80e3-1b8db31a5013)
+![22](https://github.com/yoon0309/house_price_prediction_webapp/assets/102473586/ec49c821-16c6-490b-acab-23d63bae9359)
+![33](https://github.com/yoon0309/house_price_prediction_webapp/assets/102473586/a277aefd-2cb1-4205-8c4b-c6be21b41bcc)
+![44](https://github.com/yoon0309/house_price_prediction_webapp/assets/102473586/e34954b8-117f-417e-ad6f-0a149bc6a6ce)
 
- 
+
+자세히 확인 할 수 있는 링크 
+https://lookerstudio.google.com/reporting/753372b9-c960-4a3c-8755-afb11815c251
 
 
 ### 6. 한계점 및 해결방안  
@@ -88,7 +98,7 @@ Database로 사용된 MongoDB는 NoSQL의 한 종류를 사용하였다.
 - 집 값 예측 모델의 선형회귀 모델 구축 전, 컬럼 선정시에 집 구매 선택 기준을 컬럼별로 상관계수를 구하여 가격에 어떤 컬럼이 영향을 주는지 살필 수 있는 지표가 되었을 것 같아서 아쉬움이 남습니다. 
 - heroku 연결을 하여 타인이 접근할 수 있는 환경을 만들었으면 더 좋았을 것이라는 생각이 듭니다. 
 - mongoDB 외의 다른 Database 연결 시도를 해보고 싶다는 생각이 들었습니다.
-
+- 시각화에 대한 공부 필요성을 느꼈습니다. 
 
 ### 7. 출처 
 https://value-error.tistory.com/26
